@@ -139,7 +139,7 @@ This project demonstrates how to build a **serverless URL shortener** with **AWS
 ---
 
 ## 📌 Author
-Teja Boreddy
+Abhijeet Aayush
 
 ---
 
