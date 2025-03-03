@@ -38,8 +38,8 @@ This project is a **URL Shortener** built using **AWS Lambda**, **API Gateway**,
 
 ## 📄 Project Structure
 ```
-├── src
-│   └── handler.ts     # Lambda Function Code
+├── hello-world
+│   └── app.ts     # Lambda Function Code
 ├── package.json       # Dependencies
 └── tsconfig.json      # TypeScript Configuration
 ```
