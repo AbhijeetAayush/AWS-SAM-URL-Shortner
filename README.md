@@ -27,6 +27,7 @@ This project is a **URL Shortener** built using **AWS Lambda**, **API Gateway**,
 - AWS CLI configured
 - DynamoDB table created
 - API Gateway set up
+- AWS SAM CLI installed
 
 ### DynamoDB Table Configuration
 | Attribute Name | Type   |
@@ -58,17 +59,15 @@ cd Url-Shortener-AWS
 npm install
 ```
 
-### Build Project
+### Deploy to AWS using SAM
+1. Build the project using AWS SAM:
 ```bash
-npm run build
+sam build
 ```
-
-### Deploy to AWS
-1. Zip the folder
+2. Deploy the project using guided deployment:
 ```bash
-zip -r lambda.zip .
+sam deploy --guided
 ```
-2. Upload to AWS Lambda
 3. Set **Environment Variable**:
    - `TABLE_NAME`: Your DynamoDB table name
 
